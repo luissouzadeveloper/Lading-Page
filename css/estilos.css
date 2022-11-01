@@ -65,7 +65,7 @@ header #navegacao a:hover{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 60vh;
+    height: 80vh;
     padding: 20px;
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ header #navegacao a:hover{
 .fundo #apresentacao, #formulario{
     width: 668px;
     margin: 15px;
-    height: 250px;
+    height: 320px;
     padding: 10px;
     border-radius: 15px;
     background-color: rgba(0, 0, 0, 0.342);
@@ -330,7 +330,7 @@ main{
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 100vh;
+        height: 125vh;
         padding: 20px;
         display: flex;
         align-items: center;

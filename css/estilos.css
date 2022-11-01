@@ -302,7 +302,7 @@ main{
 }
 
 /*Celulares*/
-@media (min-width: 400px) and (max-width: 767px){
+@media (min-width: 320px) and (max-width: 767px){
     /*Cabeçalho*/
     #cabecalho{
         background-color: var(--cor1);
@@ -380,84 +380,4 @@ main{
         padding: 15px;
     }
     
-}
-
-/*Celulares menores*/
-@media (min-width: 320px) and (max-width: 399px){
-    /*Cabeçalho*/
-    #cabecalho{
-        background-color: var(--cor1);
-        padding: 20px;
-        height: 270px;
-    }
-
-    /*Cabeçalho > Logo*/
-    div.logo{
-        margin-left: 30px;
-        display: block;
-    }
-    
-    /*Cabeçalho > Navegação*/
-    header #navegacao{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-
-    /*Imagem de fundo*/
-    .fundo{
-        background-image: url(../img/fundo-aviao.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        padding: 20px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    /*Imagem de fundo > Apresentação*/
-    .fundo #apresentacao, #formulario{
-        width: 100%;
-        padding: 15px;
-        margin: 30px;
-    }
-
-    /*Locais*/
-    #pacotes{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 15px;
-        margin: 10px auto;
-    }
-
-    /*Caixas*/
-    .caixa{
-        background-color: var(--cor1);
-        width: 80%;
-        padding: 10px;
-        margin: 10px auto;
-        border-radius: 15px;
-    }
-
-    /*Container*/
-    #container-sobre{
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        text-align: center;
-    }
-
-    /*Caixa de sobre*/
-    .caixa-sobre{
-        background-color: var(--cor3);
-        color: var(--cor2);
-        width: 90%;
-        border-radius: 15px;
-        margin: 10px auto;
-        padding: 15px;
-    }
 }
